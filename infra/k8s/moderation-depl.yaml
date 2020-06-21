@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: moderation-depl
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: moderation
